@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "gibson";
+  font-style: normal;
+  font-weight: bold;
+  src: local("gibson-bold"),
+    url("../../assets/fonts/gibson-font/gibson-bold.ttf") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.homeBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.homeBodyComponent {
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.opportinitiesText {
+  /* width: 804px; */
+  white-space: nowrap;
+  text-align: left;
+  /* font-family: Gibson;
+    font-style: normal;
+    font-weight: bold; */
+
+  font: normal normal bold 71px/85px Gibson;
+  letter-spacing: 0px;
+  color: #000000;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 50px;
+  font-family: Gibson;
+}
+
+.meaningFulText {
+  white-space: nowrap;
+  text-align: left;
+  /* font-family: Gibson;
+    font-style: normal;
+    font-weight: bold; */
+  color: rgba(1, 74, 250, 1);
+  -webkit-text-stroke: 1px black;
+  font: normal normal bold 126px/151px Gibson;
+  font-size: 102px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  font-size: 102px;
+  line-height: 80px;
+  font-family: Gibson;
+  
+}
+.homeBodyImage {
+  margin-right: 1vw;
+}
+
+.joinInput{
+  display: flex;
+}
+.mt{
+  margin-top: 40px;
+
+}
+.magicalText{
+  text-align: left;
+  /* font: normal normal medium 38px/40px Poppins; */
+  letter-spacing: 0px;
+  width: 340px;
+  height: 453px;
+  font-size: 31px;
+  line-height: 40px;
+  font-family: Poppins;
+  font-weight: 400;
+
+}
+.pointer{
+  cursor: pointer;
+}
+.firstAccessText{
+  color: #014AFA;
+}
+.waitlist{
+  margin-top: 40px;
+  /* font: normal normal medium 24px/28px Poppins; */
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Poppins;
+  color: #D4D4D4;
+  font-weight: 400;
+}
+.joinInput{
+  margin-top: 5px;
+}
+
+.joinBtn{
+  padding: 10px 40px;
+  background-color: #014AFA;
+  color: white;
+  margin: 0px 10px;
+  border: 2px solid #EBEDED;
+  border-radius: 6px;
+}
+
+.joinInput input::placeholder{
+  color: #D4D4D4;
+  padding-left: 10px;
+}
+
+.joinInput input{
+  /* color: #9098A9; */
+  border: 1px #D4D4D4 solid;
+  border-radius: 6px;
+
+}
+
+
+@media screen and (max-width: 770px) {
+  .opportinitiesText {
+    font-size: 35px;
+  }
+  .meaningFulText {
+    font-size: 65px;
+  }
+
+  .homeBodyImage {
+    width: 400px;
+    height: 400px;
+  }
+}

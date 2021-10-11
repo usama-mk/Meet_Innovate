@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@font-face {
+    font-family: 'Gibson';
+    src: local('Gibson'), url(../../assets/fonts/gibson-font/Gibson-Regular.ttf) format('woff');
+     
+  }
+
+.aboutBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_group_image_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.about_group_image{
+    width: 1400px;
+    height: 500px;
+}
+
+.companyDefinition{
+    margin: 20px;
+    margin-top: 100px;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.intro_desc{
+    width: 820px;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 23px;
+    color: rgba(40,49,90,1);
+}
+
+.missionVision{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mission_image{
+    width: 400px;
+    height: 400px;
+}
+
+.mission_image_wrapper{
+    width: fit-content;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.mission_desc{
+     width: 355px;
+     height: 145px;
+     line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(0,0,0,1);
+}
+
+.mission_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
+}
+
+.vision_image{
+    width: 400px;
+    height: 400px;
+}
+
+.vision_image_wrapper{
+    
+    width: fit-content;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.vision_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
+}
+.vision_desc{
+    width: 355px;
+    height: 145px;
+    line-height: 26px;
+   text-align: left;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: lighter;
+   font-size: 16px;
+   color: rgba(0,0,0,1);
+}
+
+.talent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.talent_image_wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.talentImage{
+    width: 500px;
+    height: 500px;
+}
+
+.talent_desc_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.talent_desc{
+    width: 460px;
+}
+
+.getInTouch{
+    display: 'flex';
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.getInTouchText{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.getInTouchText>span{
+    text-align: center;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    color: rgba(77,96,250,1);
+}
+.getForm{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    box-shadow: rgba(65, 50, 252, 1) 0px 8px 24px;
+    margin: 0% auto;
+    border-radius: 20px;
+    
+    
+     
+
+}
+.getLeft{
+    /* background-color: blue; */
+    /* width: 40%; */
+    /* padding: 20px; */
+    padding-right: 8vw;
+    padding-left: 3vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     
+}
+
+input::placeholder{
+    color: #9098A9;
+}
+.getForm form{
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.inTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inTwo input{
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 275px;
+}
+
+ 
+  .inTwo input {
+    border: none;
+    border-bottom: 2px solid rgba(112,112,112,0.341);
+    outline: none;
+     
+  }
+
+.inFull{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inFull input{
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.inFull input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgba(112,112,112,0.341);
+    outline: none;
+  }
+
+#First_Name{
+    width: 107px;
+    white-space: nowrap;
+    line-height: 2px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(185,185,185,1);
+}
+
+.helpText{
+    margin-bottom: 70px;
+}
+
+.getContact{
+    display: flex;
+    flex-direction: column;
+    background-color: #4132FC;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.submitWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.contacts{
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+.socialContact{
+    display: flex;
+    justify-content: center;
+}
+
+.sendMessage{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(1,74,250,1);
+}
+
+.contactInfoText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.phone>div{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.envelope{
+    display: flex;
+    flex-direction: column;
+}
+
+.envelope>svg{
+    margin: 0;
+    padding: 0%;
+}
+
+.socialContact>img{
+    margin: 10px;
+}
+
+.talent_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(77,96,250,1);
+}
+
+.talent_desc{
+    line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(40,49,90,1);
+}
+
+.introText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
+}
+
+.missionVision{
+    background-image: url(../../assets/images/loop.png);
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover; 
+  padding-bottom: 70px;
+}
+
+.vision_image{
+    padding-top: 80px;
+}
+
+.mission_image{
+    padding-bottom: 80px;
+}

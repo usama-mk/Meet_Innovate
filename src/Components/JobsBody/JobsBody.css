@@ -1,0 +1,209 @@
+.jobsBodyWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.jobsBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.searchElements{
+    display: flex;
+    margin-bottom: 50px;
+}
+.searchText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(49,63,255,1);
+    margin-bottom: 30px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementText{
+    line-height: 47px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(0,0,0,1);
+    margin-bottom: 5px;
+}
+
+.elementInput{
+    width: 100%;
+}
+
+.elementInput> input{
+    border: lightgray 2px solid;
+    padding: 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 35vw;
+}
+
+.elementInput> input::placeholder {
+    color: lightgray;
+    font-family: poppins;
+    font-size: 14px;
+  }
+
+
+.searchButtonWrapper{
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.searchButton{
+    background-color: rgba(24,33,214,1);
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: poppins;
+    
+}
+
+.recommendedTexts{
+    width: 100%;
+    text-align: left;
+    margin-left: 16vw;
+    margin-bottom: 50px;
+}
+
+.recommendedTitle{
+    line-height: 47px;
+    margin-top: -7px;
+    text-align: left;
+   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgba(0,0,0,1);
+}
+
+.recommendedSub{
+    line-height: 47px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(205,205,205,1);
+}
+
+.jobCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.pageNumbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 160px;
+
+}
+
+.pageNumber{
+    line-height: 44px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(166,173,180,1);
+    margin: 18px;
+   
+}
+.pointer{
+    cursor: pointer;
+}
+.nextPage{
+    width: 18px;
+    height: 22px;
+    margin-left: 30px;
+}
+
+.jobsCommunity{
+    text-align: center;
+  
+}
+.communityDesc{
+    text-align: center;
+    line-height: 55px;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 34px;
+    color: rgba(40,49,90,1);
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.afterImageDesc{
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.communityText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(49,63,255,1);
+    margin-bottom: 40px;
+}
+
+.jobsCommunity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afterImageDesc{
+    line-height: 55px;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgba(40,49,90,1);
+}
+
+.joinSlackButton{
+    font-size: 22px;
+    font-family: poppins;
+    background-color: rgba(24,33,214,1);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 60px;
+    margin-bottom: 140px;
+}
+
+.jobsCommunityImage{
+    max-width: 1091px;
+    max-height: 614px;
+
+}

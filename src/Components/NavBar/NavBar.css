@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarComponents{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 2.5vw;
+    height: fit-content;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -15px;
+
+}
+
+.navBarComponent{
+    width: 80px;
+    height: 38px;
+    cursor: pointer;
+   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logoImage{
+    object-fit: cover;
+    margin-left: 3vw;
+    margin-top: -20px;
+}
+.pointer{
+    cursor: pointer;
+}
+.selectionLine{
+  
+    background-color: #0D13D7;
+    border-radius: 3px;
+    width: 55px;
+    height: 4px;
+    position: relative;
+    /* left: 2px; */
+    border: transparent;
+}
+.navBarContactBtn{
+    background-color: #0D13D7;
+    color: white;
+    padding: 10px;
+    height: 25px;
+    width: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
+     
+}
+
+@media screen and (max-width: 770px) {
+   .navBarContactBtn{
+       font-size: 10px;
+   }
+
+   .navBarComponent{
+       font-size: 15px;
+        
+   }
+  }

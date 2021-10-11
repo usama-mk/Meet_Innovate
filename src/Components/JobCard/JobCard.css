@@ -1,0 +1,107 @@
+.jobCard{
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    border-radius: 9%;
+    margin: 30px;
+}
+
+.jobStatus{
+    margin-top: 150px;
+     
+}
+
+.bookmark{
+    position: absolute;
+    right: 20px;
+}
+
+.fire{
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+}
+
+.jobPosition{
+    line-height: 47px;
+    margin-top: -9.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+
+.jobCompany{
+    line-height: 47px;
+    margin-top: -12.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(122,121,121,1);
+}
+
+.jobAddress{
+    line-height: 47px;
+    margin-top: -12.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(144,144,144,1);
+}
+
+.hr{
+     
+    opacity: 0.29;
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+}
+.statusDaysWrapper{
+    display: flex;
+}
+.statusDays{
+    line-height: 47px;
+    margin-top: -16.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(144,144,144,1);
+    margin-right: 25px;
+}
+
+.activelyRecruiting{
+    line-height: 47px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(58,195,58,1);
+    margin-bottom: 0;
+    margin-top: -50px;
+}
+
+.applicants{
+
+    line-height: 47px;
+    margin-top: -15.5px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(58,195,58,1);
+}
