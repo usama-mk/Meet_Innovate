@@ -10,6 +10,9 @@ function HomeBody() {
   const handleJoinInput = (e) => {
     setJoinInput(e.target.value);
   };
+  const alertFunction = () => {
+    window.confirm("Message Sent!");
+  }
 
   const updateDBJoin = async (e) => {
     e.preventDefault();
@@ -44,7 +47,7 @@ function HomeBody() {
           </span>
           <br />
 
-          <form onSubmit={updateDBJoin} className="form">
+          <form onSubmit={updateDBJoin} onSubmit={alertFunction} className="form">
             <div className="waitlist">
               join the waitlist to gain early access
             </div>
