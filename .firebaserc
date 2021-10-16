@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "meet-and-innovate-36337"
-  }
+    "default": "meet-and-innovate-36337",
+    "staging": "meet-and-innovate-9a63b"
+  },
+  "targets": {}
 }
