@@ -108,8 +108,8 @@ function AboutBody() {
               <span>Get In Touch</span>
           </div>
           <span className="formMessage">
-            We are building a magical product! We are building a magical product, 
-            but we can still help you drive pipeline diversity. Let’s chat! 
+            Our product is under development, but we can still 
+            help you drive pipeline diversity. Let’s chat! 
           </span>
           <div className="getForm">
             <div className="getLeft">
