@@ -1,0 +1,141 @@
+.flexColumnCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tc{
+    text-align: center;
+}
+
+.jrRoleButton{
+    margin: 10px 10px;
+    margin-left: 0px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.jrExperienceBtns{
+    width: 130%;
+}
+.jrExperienceBtn{
+    text-align: center;
+    margin: 15px 10px;
+    margin-left: 0px;
+    background-color: #E3E2E2;
+    color: #9F9F9F;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    padding: 10px 40px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-family: Gibson;
+    width: 100%;
+    font-weight: 600;
+
+}
+
+.selectSection{
+    margin-top: 20px;
+}
+
+.saveContinueBtn{
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+.select{
+    margin-top: 30px;
+}
+.select> select{
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background: url(../../assets/images/path.png) no-repeat right;
+    background-size: 30px 14px;
+    width: 50%;
+    background-origin: content-box;
+    cursor: pointer;
+
+}
+
+
+.search>input{
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background: url(../../assets/images/searchIcon.png) no-repeat right;
+    background-size: 25px 25px;
+    background-origin: content-box;
+    width: 120%;
+   
+}
+
+.JobRequirements{
+    box-shadow: 0px 3px 66px #0000001F; 
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 50px 20px;
+    margin-bottom: 60px;
+}
+
+.jrTitle{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Poppins;
+    color: #313FFF;
+}
+
+.jrSubTitle{
+    color: #707070;
+    font-family: Gibson;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.bold{
+    color: #707070;
+    font-family: Gibson;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.textTheme{
+    font-family: Gibson;
+    font-size: 18px;
+    font-weight: normal;
+    color: #707070;
+}
+
+.quetion{
+    width: 35vw;
+    margin-bottom: 60px;
+}
+
+.jrRoleButton{
+    background-color: #014AFA;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    padding: 10px 30px;
+}
+
+.selectedExBtn{
+    background: #014AFA 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.btnName{
+    margin-right: 10px;
+    margin-top: -1px;
+    font-family: Poppins;
+}

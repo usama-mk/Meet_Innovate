@@ -1,0 +1,14 @@
+.border{
+    border: 2px black solid;
+}
+
+.center{
+    justify-content: center;
+}
+
+.requirementsLogo>img{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    margin-right:14vw;
+}

@@ -53,11 +53,9 @@ function AboutBody() {
         <div className="intro">
           <div className="introText">Company Definition</div>
           <div className="intro_desc">
-            Meet & Innovate is a social networking platform that gives companies
-             visibility to historically underserved diverse professionals. We are
-              building a community-centric platform that connects diverse business 
-              professionals to career and networking opportunities.
-
+            Meet & Innovate is a professional networking platform that connects
+            minority talent to career and networking opportunities. We help
+            companies drive pipeline diversity.
           </div>
         </div>
 
@@ -69,7 +67,9 @@ function AboutBody() {
             <div className="mission_text">Mission</div>
 
             <div className="mission_desc">
-              To work every day to ensure that diverse professionals are receiving equitable treatment. 
+              To work every day to ensure that companies are doing everything
+              they can do to create a fair and equitable opportunity when
+              diverse candidates apply for a job.
             </div>
           </div>
 
@@ -79,7 +79,8 @@ function AboutBody() {
             <div className="vision_text">Vision</div>
 
             <div className="vision_desc">
-            To assist diverse professionals with networking, mentoring and career opportunities worldwide. We are committed  to driving pipeline diversity and implementing practices that encourage workplace equity for all.            </div>
+            Assisting every company in the world with committing to driving pipeline diversity and implementing practices that encourage workplace equity for all.
+            </div>
 
             <div className="vision_image_wrapper">
               <img className="vision_image" src={vision_image} alt="" />
@@ -89,17 +90,17 @@ function AboutBody() {
 
         <div className="talent">
           <div className="talent_image_wrapper">
-            {/* <img className="talentImage" src={talentImage} alt="" /> */}
+            <img className="talentImage" src={talentImage} alt="" />
           </div>
 
           <div className="talent_desc_wrapper">
-            {/* <div className="talent_text">Talent Ecosystem</div> */}
-            {/* <div className="talent_desc"> */}
-              {/* When you work with us you’re not just pulling random talent,
+            <div className="talent_text">Talent Ecosystem</div>
+            <div className="talent_desc">
+              When you work with us you’re not just pulling random talent,
               you’re receiving talent directly from our ecosystem. We focus on
               people development, skills verification, and talent that is
-              actively seeking employment */}
-            {/* </div> */}
+              actively seeking employment
+            </div>
           </div>
         </div>
 
@@ -107,10 +108,7 @@ function AboutBody() {
           <div className="getInTouchText">
               <span>Get In Touch</span>
           </div>
-          <span className="formMessage">
-            Our product is under development, but we can still 
-            help you drive pipeline diversity. Let’s chat! 
-          </span>
+
           <div className="getForm">
             <div className="getLeft">
               <div className="sendMessage">Send A Message</div>

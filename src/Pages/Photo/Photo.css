@@ -1,0 +1,16 @@
+.dragWrapper{
+    background-color: #F6F6F6;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.dragWrapper>span{
+    color: #313FFF;
+    cursor: pointer;
+}

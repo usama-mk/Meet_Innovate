@@ -9,18 +9,6 @@
     display: flex;
     flex-direction: column;
 }
-.formMessage {
-    font-size: 15px;
-    line-height: 25px;
-    font-family: Poppins;
-    font-weight: 300px;
-    margin-right: 300px;
-    height: auto;
-    position: relative;
-    bottom: 20px;
-    margin-left: 500px;
-}
-
 
 .about_group_image_wrapper{
     display: flex;
@@ -123,7 +111,6 @@
     font-weight: bold;
     font-size: 40px;
     color: rgba(1,74,250,1);
-    margin-right: 30px;
 }
 .vision_desc{
     width: 355px;
@@ -191,6 +178,7 @@
     display: flex;
     width: 80%;
     justify-content: center;
+    box-shadow: rgba(65, 50, 252, 1) 0px 8px 24px;
     margin: 0% auto;
     border-radius: 20px;
     

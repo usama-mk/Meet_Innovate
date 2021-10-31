@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Gibson-Light';
+    src: local('Gibson-Light'), url(../../assets/fonts/gibson-font/Gibson-Light.ttf) format('woff');
+     
+  }
+
+.sfSelects{
+    width: '100%';
+}
+
+.sfChooseText{
+    font-weight: 300;
+    font-family: Gibson-Light;
+}
+
+.sfCheckboxes{
+    width: 72%;
+}
+.sfCheckBox{
+    margin-left: -5px;
+    margin-top: 30px;
+}
+
+.sfCheckboxesWrapper{
+    margin-bottom: 120px;
+}
+select{
+    font-family: Gibson;
+}
+
+.opacity033{
+    opacity: 0.33;
+}
+
+.radioBtn{
+    margin-right: 7px;
+}
+
+.sfRace{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

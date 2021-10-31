@@ -1,0 +1,169 @@
+.Signup{
+    background-image: url(../../assets/images/signupBG.png);
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin-top: -20px; */
+}
+.closeModal{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.signupModal{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 78px #00000029;
+    max-width: 504px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.signupContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupText{
+    color: #313FFF;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: Gibson;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.signupTextInfo{
+    text-align: center;
+    color: #707070;
+    padding-bottom: 30px;
+}
+.blueText{
+    color: #014AFA;
+}
+.googleContinue{
+    display: flex;
+    box-shadow: 0px 0px 12px #8A8A8A4D;
+    padding: 10px 50px;
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+.orSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   margin-left: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.jc{
+    justify-content: center;
+}
+
+.ac{
+    align-items: center;
+}
+
+.hr{
+    height: fit-content;
+}
+.hr hr{
+    width: 11vw;
+    box-shadow: 0px 3px 78px #00000029;
+   
+}
+
+.orText{
+    height: fit-content;
+    padding-bottom: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #313FFF;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.signupBtnWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.signupButton{
+    padding: 10px 70px;
+    background-color: #014AFA;
+    width: fit-content;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    color: white;
+    font-family: Poppins;
+}
+
+.loginHere{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginHere>span{
+    color: #313FFF;
+    font-weight: 600;
+    font-family: Gibson;
+}
+
+#signupLabel{
+    width: 107px;
+    white-space: nowrap;
+    line-height: 2px;
+    text-align: center;
+    /* font-family: Gibson; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 8px;
+
+}
+.w100{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+}
+.ml{
+    margin-left: 9%;
+}
+.sb{
+    justify-content: space-between;
+}
+.signupForm input{
+    border: 2px solid #D4D4D4;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.lastName{
+    margin-left: 9%;
+}
+
+.googleLogo{
+    margin-right: 30px;
+}
+
+.googleText{
+    font-family: Gibson;
+    color: #242021;
+}

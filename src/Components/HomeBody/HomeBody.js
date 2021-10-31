@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./HomeBody.css";
 import homeBodyImage from "../../assets/images/homeBodyImage.png";
+import homeRightImage from "../../assets/images/homeRightImage.png";
+import phoneMockup from "../../assets/images/phoneMockup.png";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../../firebase";
 import { collection, addDoc } from "firebase/firestore";
@@ -10,9 +12,6 @@ function HomeBody() {
   const handleJoinInput = (e) => {
     setJoinInput(e.target.value);
   };
-  const alertFunction = () => {
-    window.confirm("Message Sent!");
-  }
 
   const updateDBJoin = async (e) => {
     e.preventDefault();
@@ -47,7 +46,7 @@ function HomeBody() {
           </span>
           <br />
 
-          <form onSubmit={updateDBJoin} onSubmit={alertFunction} className="form">
+          <form onSubmit={updateDBJoin} className="form">
             <div className="waitlist">
               join the waitlist to gain early access
             </div>
@@ -68,11 +67,14 @@ function HomeBody() {
       <div className="homeBodyComponent">
         <img
           className="homeBodyImage"
-          max-width="697px"
+          max-width="700px"
           height="679px"
-          src={homeBodyImage}
+          src={homeRightImage}
           alt=""
         />
+        <div className="innerImageHome">
+          <img src={phoneMockup} alt="" />
+        </div>
       </div>
     </div>
   );
